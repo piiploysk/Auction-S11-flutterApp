@@ -1,0 +1,35 @@
+description: "A new Flutter application."
+name: "flutterapp"
+publish_to: "none"
+version: "1.0.0+1"
+dependencies: 
+  cupertino_icons: "^1.0.5"
+  path_drawing: "^1.0.0"
+  flutter: 
+    sdk: "flutter"
+  table_calendar: ^3.0.9
+dev_dependencies: 
+  flutter_test: 
+    sdk: "flutter"
+environment: 
+  sdk: ">=2.12.0 <3.0.0"
+flutter: 
+  assets: 
+    - "assets/images/"
+  fonts: 
+    - 
+      family: "Kanit"
+      fonts: 
+        - 
+          asset: "fonts/Kanit-regular.ttf"
+          style: "normal"
+          weight: 400
+        - 
+          asset: "fonts/Kanit-500.ttf"
+          style: "normal"
+          weight: 500
+        - 
+          asset: "fonts/Kanit-600.ttf"
+          style: "normal"
+          weight: 600
+  uses-material-design: true
